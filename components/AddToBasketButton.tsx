@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 
 interface AddToBasketButtonProps {
   product: Product;
-  disabled: boolean;
+  disabled?: boolean;
 }
 
 const AddToBasketButton = ({ product, disabled }: AddToBasketButtonProps) => {
